@@ -1,3 +1,5 @@
+# Josh-Webbs-Website-
+MEITE Project/Website 2
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -97,16 +99,9 @@
 
   /* ---------- About ---------- */
   .about-grid{display:grid;grid-template-columns:1.55fr 1fr;gap:clamp(2rem,5vw,4rem);align-items:start;}
-  .about-grid p{max-width:64ch;}
-  .photo{
-    position:relative;width:100%;max-width:340px;aspect-ratio:1/1;border-radius:4px;overflow:hidden;
-    background:var(--beige);border:1px solid var(--beige-soft);margin-bottom:1.75rem;
-    display:flex;align-items:center;justify-content:center;
-  }
-  .photo-fallback{font-family:"Lora",serif;font-size:3.5rem;font-weight:600;color:var(--cream);letter-spacing:.05em;}
-  .photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+  .about-grid p{max-width:62ch;}
   .quote{
-    font-family:"Lora",serif;font-style:italic;font-size:1.35rem;line-height:1.4;color:var(--charcoal);
+    font-family:"Lora",serif;font-style:italic;font-size:1.4rem;line-height:1.4;color:var(--charcoal);
     border-left:3px solid var(--ember);padding:.25rem 0 .25rem 1.5rem;margin:0;
   }
   .quote cite{display:block;font-style:normal;font-family:"Inter",sans-serif;font-size:.9rem;color:var(--ink);opacity:.7;margin-top:1rem;font-weight:500;}
@@ -174,11 +169,8 @@
   /* ---------- Contact ---------- */
   .contact{text-align:center;}
   .contact h2{font-size:clamp(2rem,4.5vw,3rem);font-weight:600;max-width:20ch;margin:0 auto;}
-  .contact p{max-width:54ch;margin:1.25rem auto 1.5rem;}
+  .contact p{max-width:54ch;margin:1.25rem auto 2rem;}
   .contact-links{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;}
-  .contact-details{margin-top:1.75rem;font-size:.95rem;color:var(--ink);opacity:.8;}
-  .contact-details a{color:var(--ember-deep);font-weight:600;text-decoration:none;}
-  .contact-details a:hover{text-decoration:underline;}
 
   footer{padding:2.5rem 0 3rem;border-top:1px solid var(--beige-soft);color:var(--ink);opacity:.7;font-size:.9rem;text-align:center;}
 
@@ -228,7 +220,7 @@
   </div>
 </header>
 
-<!-- ============ HERO (HOME) ============ -->
+<!-- ============ HERO ============ -->
 <section class="hero" id="top">
   <div class="wrap">
     <div class="hero-name">
@@ -245,59 +237,331 @@
       <a href="#experience" class="btn btn-primary">See my work</a>
       <a href="#contact" class="btn btn-ghost">Get in touch</a>
     </div>
-    <p class="hero-meta">Based in Raleigh, North Carolina. Community School Site Director at Chapel Hill-Carrboro City Schools and graduate student at UNC Chapel Hill.</p>
+    <p class="hero-meta">Based in North Carolina. Community School Site Director at Chapel Hill-Carrboro City Schools and graduate student at UNC Chapel Hill.</p>
   </div>
 </section>
 
-<!-- ============ ABOUT (PROFESSIONAL STATEMENT) ============ -->
+<!-- ============ ABOUT ============ -->
 <section class="band" id="about">
   <div class="wrap">
     <div class="sec-head">
       <p class="sec-kicker">About</p>
-      <h2>Who I am, and how I work</h2>
+      <h2>An equity leveler across the whole system</h2>
     </div>
     <div class="about-grid">
       <div>
         <p>
-          I am an educator, community schools leader, and program designer, and across more than seven years
-          in classrooms and youth programs I have worked to make public education more equitable, one student
-          and one program at a time. My work lives at the intersection of three settings that too often operate
-          in isolation: the classroom, the extended hours that surround it, and the community spaces where
-          students first encounter what is possible for their lives. I do not see these as separate worlds. I
-          see them as connected levers, and I have built my career learning how to pull them together.
+          I work at the intersection of the classroom, extended learning, and educational access. I have
+          taught middle grades English and social studies, led out-of-school-time programs, and now design
+          learning experiences that reach students in school, in the hours around it, and in the communities
+          where opportunity is thinnest. I believe every one of those settings is a lever, and I am not
+          content to pull just one.
         </p>
         <p>
-          In practice, that means I teach, I design, and I lead. I have taught middle grades English and social
-          studies in Wake and Edgecombe County classrooms, coordinated year-round enrichment at the Alexander
-          Family YMCA, and directed a municipal summer camp for the City of Raleigh. Today I lead a K&ndash;5
-          community schools site for Chapel Hill-Carrboro City Schools, where I build programming that bridges
-          the school day and the home, and as a graduate Education Innovation intern with Goodwill Industries of
-          Eastern North Carolina, I design hands-on literacy tools that put high-quality reading support into
-          the communities that need it most. Earlier, as a policy research assistant with the Public School
-          Forum of North Carolina, I helped advocate for over a million dollars in funding and contributed to
-          briefs that inform reform at the state level.
+          My commitment to equity is rooted in real-world experience. I have student-taught in classrooms
+          across Edgecombe and Wake County, coordinated enrichment at the Alexander Family YMCA, and directed
+          youth programming at the John Chavis Community Center. Today I serve as a Community School Site
+          Director in Chapel Hill-Carrboro City Schools and, as a graduate Education Innovation intern with
+          Goodwill Industries of Eastern North Carolina, I am designing literacy tools that put hands-on
+          reading support into high-need communities. Alongside that direct work, I have contributed to major
+          policy briefs and published on education access, teacher training, and equity.
         </p>
         <p>
-          I approach every one of these roles through an equity-centered, data-informed, and justice-driven
-          lens. I start by listening: sitting in classrooms, learning what teachers want to see grow in their
-          students, and letting real needs shape what I build rather than the other way around. I design
-          programs that add genuine learning time rather than simply filling hours, I measure what I do so that
-          I can improve it, and I hold myself and my teams accountable to outcomes, not just intentions. Above
-          all, I work to create spaces where every student is known, supported, and given a real reason to
-          believe in their own future.
-        </p>
-        <p>
-          I am building toward a career at the systems level of education, where I can shape how out-of-school
-          learning and in-school instruction reinforce one another to close achievement gaps. My graduate
-          research explores how high-quality curriculum for extended learning can raise outcomes for the
-          students who are furthest from opportunity, and it is laying the groundwork for a model I am
-          developing to serve K&ndash;8 students in the community where I grew up. This is the throughline of
-          everything I do: I want to help build an education system where a student's possibilities are defined
-          by their potential, not by their circumstances, and I am pursuing that goal from every angle the work
-          allows.
+          I hold a B.S. in Middle Grades Education from NC State University, and I am a graduate student in the
+          Master of Arts in Educational Innovation, Technology, and Entrepreneurship program at UNC Chapel Hill.
         </p>
       </div>
       <div>
-        <div class="photo">
-          <span class="photo-fallback">JW</span>
-          <img src="data:image/jpeg;base64,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
+        <blockquote class="quote">
+          A zip code should never determine the trajectory of a child's life.
+          The belief driving everything I am building toward.
+        </blockquote>
+        <dl class="fastfacts">
+          <div><dt>Based in</dt><dd>North Carolina</dd></div>
+          <div><dt>Current role</dt><dd>Site Director, CHCCS</dd></div>
+          <div><dt>Studying</dt><dd>M.A., UNC Chapel Hill</dd></div>
+          <div><dt>Working across</dt><dd>Schools, enrichment, access</dd></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOCUS ============ -->
+<section id="focus">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="sec-kicker">What I do</p>
+      <h2>The levers I pull to change the face of education</h2>
+      <p>Areas where I have built depth across classrooms, community centers, education-innovation work, and policy.</p>
+    </div>
+    <div class="focus-grid">
+      <div class="focus-item">
+        <div class="bar"></div>
+        <h3>Classroom Teaching &amp; Instruction</h3>
+        <p>Designing and delivering standards-aligned, responsive instruction, from a justice-and-perspectives unit for 120 eighth-graders to Universal Design for Learning that reaches every kind of learner.</p>
+      </div>
+      <div class="focus-item">
+        <div class="bar"></div>
+        <h3>Extended &amp; Out-of-School Learning</h3>
+        <p>Building enrichment in the hours around the school day as one lever for closing gaps, structured to add real learning time rather than simply fill hours.</p>
+      </div>
+      <div class="focus-item">
+        <div class="bar"></div>
+        <h3>Educational Access &amp; Exposure</h3>
+        <p>Getting hands-on STEAM and literacy support into high-need communities, so a student's access to opportunity is not decided by where they happen to live.</p>
+      </div>
+      <div class="focus-item">
+        <div class="bar"></div>
+        <h3>Equity &amp; Education Policy</h3>
+        <p>Synthesizing data across programs and districts to advocate for funding, inform state-level reform, and keep equity at the center of the conversation.</p>
+      </div>
+      <div class="focus-item">
+        <div class="bar"></div>
+        <h3>Curriculum &amp; Program Design</h3>
+        <p>Building the curricula, schedules, staffing models, and systems that let strong programs hold their weight for kids, day after day.</p>
+      </div>
+      <div class="focus-item">
+        <div class="bar"></div>
+        <h3>Family &amp; Community Engagement</h3>
+        <p>Connecting schools, families, and community partners so learning is reinforced everywhere a student spends their time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="band" id="experience">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="sec-kicker">Experience</p>
+      <h2>A record of building across every setting</h2>
+    </div>
+    <div class="timeline">
+
+      <div class="tl-item">
+        <div class="tl-date">Aug 2026 &ndash; Present</div>
+        <h3>Community School Site Director</h3>
+        <div class="tl-org">Chapel Hill-Carrboro City Schools · Rashkis Elementary</div>
+        <ul>
+          <li>Lead all operations of a K&ndash;5 enrichment program serving 40+ students, scaling to 80+ on teacher workdays.</li>
+          <li>Designed a weekly model with two targeted-instruction days, two active-programming days, and one hands-on project, adding six hours of targeted learning per week.</li>
+          <li>Hire, train, supervise, and evaluate assistant directors, group leaders, substitutes, and volunteers using district-aligned assessments.</li>
+          <li>Coordinate daily with 20+ educators and 40+ guardians to align programming with student needs and bridge the school day.</li>
+        </ul>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-date">Fall 2026 &ndash; Present</div>
+        <h3>Education Innovation Intern (UNC MEITE)</h3>
+        <div class="tl-org">Goodwill Industries of Eastern North Carolina</div>
+        <ul>
+          <li>Support Goodwill's STEAM education programs serving high-need communities across eastern North Carolina.</li>
+          <li>Designing a free, multisensory literacy toolkit aligned to the science of reading, built to support both classrooms and out-of-school programs serving students with reading-based learning needs.</li>
+          <li>Conducted an eastern North Carolina educational-landscape analysis, mapping funding gaps, literacy and STEM proficiency, and partner needs to inform grant strategy.</li>
+          <li>Represented Goodwill's STEAM program in community STEM outreach, connecting students and families to hands-on learning.</li>
+        </ul>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-date">Apr 2026 &ndash; Aug 2026</div>
+        <h3>Program Director, Youth Camp</h3>
+        <div class="tl-org">City of Raleigh · John Chavis Community Center</div>
+        <ul>
+          <li>Directed daily operations for a 55-hour-per-week municipal youth camp serving 45+ campers.</li>
+          <li>Supervised, coached, and evaluated eight seasonal staff, delivering 495 hours of STEM, literacy, creative, and physical programming.</li>
+          <li>Developed and analyzed beginning, midpoint, and end-of-program assessments to measure quality and inform leadership decisions.</li>
+          <li>Designed inclusive adaptations and individualized support plans for campers with diverse learning and behavioral needs.</li>
+        </ul>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-date">Aug 2024 &ndash; May 2026</div>
+        <h3>Teacher Candidate, Middle Grades English</h3>
+        <div class="tl-org">Wake County &amp; Edgecombe County Public Schools</div>
+        <ul>
+          <li>Designed and delivered a unit on justice and perspectives in American literature for 120 eighth-graders, using scaffolded, responsive instruction.</li>
+          <li>Applied Universal Design for Learning frameworks to differentiate instruction and support diverse learners.</li>
+          <li>Integrated digital literacies, inquiry-based learning, and citizenship across English and social studies content.</li>
+        </ul>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-date">Feb 2024 &ndash; Apr 2026</div>
+        <h3>Youth Enrichment Site Coordinator</h3>
+        <div class="tl-org">YMCA of the Triangle · Alexander Family YMCA</div>
+        <ul>
+          <li>Managed year-round operations serving 70+ students and led office operations for 300+ campers during the summer.</li>
+          <li>Mentored and co-supervised 8 academic-year counselors and 40 summer counselors, plus three Youth Club Supervisors.</li>
+          <li>Designed a data-driven curriculum integrating literacy, social studies, STEM, and social-emotional learning.</li>
+        </ul>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-date">Feb 2023 &ndash; Mar 2024</div>
+        <h3>Education Policy Research Assistant</h3>
+        <div class="tl-org">Public School Forum of North Carolina</div>
+        <ul>
+          <li>Collaborated with Dogwood Health Trust to advocate for over $1 million in funding through data synthesis and policy presentations.</li>
+          <li>Performed analytical research on 80+ after-school programs and coded interview transcripts to identify key equity themes.</li>
+          <li>Increased program visibility by 25% through strategic communications and stakeholder engagement.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ BUILDING TOWARD ============ -->
+<section id="building">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="sec-kicker">Building toward</p>
+      <h2>A research and design initiative in development</h2>
+      <p>Beyond my day-to-day work, I am developing and researching a model for what high-quality out-of-school learning can be.</p>
+    </div>
+    <div class="edge">
+      <span class="tag">In development · Research initiative</span>
+      <h3>Expanded E.D.G.E. Learning</h3>
+      <p>
+        Expanded E.D.G.E. Learning is a concept I am designing and a research project I am pursuing: an
+        investigation into how high-quality curriculum for out-of-school-time programs can raise learning
+        outcomes and close achievement gaps. The model is being built for K&ndash;8 students in Edgecombe County,
+        North Carolina, one of the communities where I first learned what a zip code can cost a child. It is a
+        vision under active development, not yet a launched organization.
+      </p>
+      <div class="edge-programs">
+        <div class="edge-card">
+          <h4>ELEVATE · Grades K&ndash;5</h4>
+          <p>An elementary track built around early literacy, foundational skills, and the social-emotional habits that help young learners feel they belong.</p>
+        </div>
+        <div class="edge-card">
+          <h4>ASCEND · Grades 6&ndash;8</h4>
+          <p>A middle-grades track focused on academic momentum, identity, and the agency young adolescents need to author their own futures.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WRITING ============ -->
+<section class="band" id="writing">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="sec-kicker">Writing &amp; speaking</p>
+      <h2>Contributing to the conversation on education equity</h2>
+    </div>
+    <div class="writing-list">
+
+      <a class="writing-item" href="#" rel="noopener">
+        <div>
+          <h3>Undergraduate Commencement Address, Class of 2026</h3>
+          <div class="desc">Delivered the commencement address for the NC State College of Education, reflecting on the work it takes to become an educator worth investing in.</div>
+        </div>
+        <div class="src">NC State</div>
+      </a>
+
+      <a class="writing-item" href="#" rel="noopener">
+        <div>
+          <h3>Developing global perspectives for future teachers and their students</h3>
+          <div class="desc">A perspective on how international teacher-training experiences shape more inclusive, culturally responsive classrooms back home.</div>
+        </div>
+        <div class="src">EducationNC · 2024</div>
+      </a>
+
+      <a class="writing-item" href="#" rel="noopener">
+        <div>
+          <h3>Gen Z Educators on the Teaching Profession</h3>
+          <div class="desc">Panel contribution on the challenges facing new teachers and how to support first-year educators entering the field.</div>
+        </div>
+        <div class="src">News &amp; Observer · 2023</div>
+      </a>
+
+      <a class="writing-item" href="#" rel="noopener">
+        <div>
+          <h3>Perspective Articles on North Carolina Education</h3>
+          <div class="desc">Ongoing author covering shifts in NC public education, from teacher retention and training to the school-to-prison pipeline and early childhood programs.</div>
+        </div>
+        <div class="src">EdNC · 2022&ndash;Present</div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section id="education">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="sec-kicker">Education</p>
+      <h2>Grounded in research and practice</h2>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <div class="yr">Aug 2026 &ndash; May 2027</div>
+        <h3>Master of Arts in Educational Innovation, Technology, and Entrepreneurship</h3>
+        <div class="inst">The University of North Carolina at Chapel Hill</div>
+        <p>Innovative Specialist concentration, focused on leadership, research, and innovation within educational organizations, districts, and nonprofits.</p>
+      </div>
+      <div class="edu-card">
+        <div class="yr">Aug 2023 &ndash; May 2026</div>
+        <h3>B.S., Middle Grades Education: English &amp; Social Studies</h3>
+        <div class="inst">North Carolina State University</div>
+        <p>Summa Cum Laude, 3.93 GPA. Transformational Scholar, Honors College, Kappa Delta Pi, Queer Educators Alliance Chair. Study abroad in New Zealand and Costa Rica.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="band contact" id="contact">
+  <div class="wrap">
+    <p class="sec-kicker">Contact</p>
+    <h2>Let's build something that holds its weight for kids.</h2>
+    <p>Whether you are working in schools, extended learning, education innovation, or policy, I would love to connect.</p>
+    <div class="contact-links">
+      <a href="mailto:your-email@example.com" class="btn btn-primary">Email me</a>
+      <a href="https://www.linkedin.com/in/YOUR-HANDLE" class="btn btn-ghost" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Joshua Webb, Educator &amp; Program Designer · North Carolina
+  </div>
+</footer>
+
+<script>
+  // Mobile menu toggle
+  const toggle = document.querySelector('.nav-toggle');
+  const links = document.querySelector('.nav-links');
+  toggle.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+  links.querySelectorAll('a').forEach(a =>
+    a.addEventListener('click', () => {
+      links.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    })
+  );
+
+  // Scrollspy: highlight active nav link
+  const navLinks = [...document.querySelectorAll('.nav-links a')];
+  const sections = navLinks
+    .map(a => document.querySelector(a.getAttribute('href')))
+    .filter(Boolean);
+  const spy = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        const id = '#' + e.target.id;
+        navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === id));
+      }
+    });
+  }, { rootMargin: '-45% 0px -50% 0px' });
+  sections.forEach(s => spy.observe(s));
+</script>
+
+</body>
+</html>
